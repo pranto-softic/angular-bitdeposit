@@ -1,0 +1,32 @@
+.menu-wrapper {
+  background-color: #262260;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  /* justify-content: center;
+    align-items: center; */
+  padding: 16px 10px;
+}
+
+.menu-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 10px;
+  color: #ffffff !important;
+}
+
+.auth-btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 8px;
+  color: #352f7f !important;
+  border-radius: 4px;
+  height: 24px;
+}
+
+.login-btn {
+  background: #ffffff !important;
+  margin-right: 20px;
+}
+
+.signup-btn {
+  background: #ffcc00 !important;
+}

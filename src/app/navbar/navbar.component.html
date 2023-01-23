@@ -1,0 +1,22 @@
+<div class="menu-wrapper flex content-between items-center">
+  <div>
+    <button mat-button class="menu-item">Above</button>
+    <button mat-button class="menu-item">Below</button>
+    <button mat-button class="menu-item">Before</button>
+    <button mat-button class="menu-item">After</button>
+  </div>
+
+  <div>
+    <button
+      (click)="openDialog()"
+      class="auth-btn login-btn"
+      mat-raised-button
+      color="primary"
+    >
+      Login
+    </button>
+    <button class="auth-btn signup-btn" mat-raised-button color="primary">
+      Signup
+    </button>
+  </div>
+</div>
